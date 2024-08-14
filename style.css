@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -118,22 +118,21 @@ img{
 
 @media (max-width: 600px) {
     .choices {
-        flex-direction: column;
         gap: 2rem;
     }
 
     .choice {
-        height: 140px;
-        width: 140px;
+        height: 100px;
+        width: 100px;
+        gap: 1rem;
     }
 
     img {
-        height: 130px;
-        width: 130px;
+        height: 90px;
+        width: 90px;
     }
 
     .score-board {
-        flex-direction: column;
         gap: 2rem;
         padding: 1rem;
     }

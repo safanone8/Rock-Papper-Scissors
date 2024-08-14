@@ -16,19 +16,19 @@ const genCompChoice = () => {
 
 const draw = () => {
     msg.innerText = "This was a drow,Tough compitition."
-    msg.style.backgroundColor = "blue";
+    msg.style.color = "blue";
 }
 
 const showWinner = (userWin,userChoice,compChoice) => {
     if(userWin){
         msg.innerText = `yeee!!! you won ${userChoice} beats ${compChoice}`;
-        msg.style.backgroundColor = "green";
+        msg.style.color = "green";
         userScore++; //tracking user score
         uScore.innerText = userScore;
     }
     else {
         msg.innerText = `Oops!! you loose ${compChoice} beats your ${userChoice}, Try again`;
-        msg.style.backgroundColor = "red";
+        msg.style.color = "red";
         compScore++; //tracking comp score
         cScore.innerText = compScore;
     }
