@@ -18,13 +18,13 @@ body {
 h1{
     background-color: #081b3a;
     color: white;
-    height: 5rem;
-    line-height: 5rem;
+    height: 4rem;
+    line-height: 4rem;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
     letter-spacing: 2px;
     transition: background-color 0.3s ease;
     
@@ -50,6 +50,8 @@ h1:hover {
     cursor: pointer;
     transform: scale(1.1);
     background: linear-gradient(145deg, #3c4b6e, #2c3e50);
+    box-shadow: 0 8px 15px rgba(120, 1, 255, 0.8);
+
 }
 
 img{
@@ -69,7 +71,8 @@ img{
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    margin-top: 3rem;
+    /* matgin from top */
+    /* margin-top: 3rem; */ 
 }
 
 .score-board{
